@@ -1,0 +1,13 @@
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = false
+	logallrefupdates = true
+[remote "origin"]
+	url = https://github.com/eduard-kavalchuk/sf-hw-vcs.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
+[user]
+	name = Eduard Kovalchuk
+	email = eduardkovalchuk@mail.ru
+[alias]
+	history = log --graph
